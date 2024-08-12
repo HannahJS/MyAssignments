@@ -83,7 +83,7 @@ public class DeleteLead {
 		//then use click
 		WebElement firstPhoneResult = driver.findElement(By.xpath("//a[@class='linktext']/parent::div[@class='x-grid3-cell-inner x-grid3-col-partyId'][1])"));
 		firstPhoneResult.click();
-		System.out.println("Phone selected");
+		System.out.println("First Phone result selected");
 		/*
 		driver.findElement(By.xpath("//span[text()='Name and ID']")).click();
 		driver.findElement(By.xpath("//input[@name='id']")).sendKeys("10224");
